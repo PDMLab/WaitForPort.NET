@@ -23,13 +23,10 @@ jobs:
         
       - name: Install dependencies
         run: |
-          cd src 
           dotnet restore
       - name: Build
         run: |
-          cd src 
           dotnet build --configuration $config --no-restore
       - name: Test
         run: |
-          cd src 
           dotnet test
