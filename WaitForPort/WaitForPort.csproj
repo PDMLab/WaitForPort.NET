@@ -4,7 +4,7 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageVersion>0.1.0</PackageVersion>
+        <PackageVersion>0.1.1</PackageVersion>
         <Title>WaitForPort</Title>
         <Authors>Alexander Zeitler</Authors>
         <Description>Wait for Ports to be available using .NET</Description>
@@ -12,8 +12,8 @@
         <PackageProjectUrl>https://github.com/PDMLab/WaitForPort.NET</PackageProjectUrl>
         <PackageLicenseUrl>https://github.com/PDMLab/WaitForPort.NET/blob/main/LICENSE</PackageLicenseUrl>
         <RepositoryUrl>https://github.com/PDMLab/WaitForPort.NET</RepositoryUrl>
-        <AssemblyVersion>0.1.0</AssemblyVersion>
-        <FileVersion>0.1.0</FileVersion>
+        <AssemblyVersion>0.1.1</AssemblyVersion>
+        <FileVersion>0.1.1</FileVersion>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
