@@ -5,7 +5,7 @@ namespace WaitForPort;
 
 public class Ports
 {
-  public static async Task WaitForTcpPort(
+  public static void WaitForTcpPort(
     int port,
     int timeout = int.MaxValue
   )

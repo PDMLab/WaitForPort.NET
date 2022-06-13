@@ -25,7 +25,7 @@ public class TcpPortTests
       .Build();
 
     await service.StartAsync();
-    await WaitForTcpPort(
+    WaitForTcpPort(
       5432,
       10000
     );
@@ -33,9 +33,9 @@ public class TcpPortTests
   }
 
   [Fact]
-  public async Task ShouldThrowOnUnavailableTcpPort()
+  public void ShouldThrowOnUnavailableTcpPort()
   {
-    var exception = await Assert.ThrowsAsync<ApplicationException>(
+    var exception = Assert.Throws<ApplicationException>(
       () => WaitForTcpPort(
         5432,
         10000
