@@ -11,6 +11,13 @@ using static WaitForPort.Ports;
 WaitForTcpPort(5432, 10000);
 ```
 
+```csharp
+using static WaitForPort.Ports;
+
+// wait for localhost:80 with a timeout of 10s
+ await WaitForHttp(new Uri("http://localhost"), HttpMethod.Get, 10000);
+```
+
 If the timeout is reached and the port is not available, an `ApplicationException` is thrown.
 
 ## Want to help?
