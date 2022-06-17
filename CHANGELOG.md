@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="0.2.0"></a>
+## [0.2.0](https://www.github.com/PDMLab/WaitForPort.NET/releases/tag/v0.2.0) (2022-6-17)
+
+### Features
+
+* wait for http port / url ([68e7a4f](https://www.github.com/PDMLab/WaitForPort.NET/commit/68e7a4fcbf518b8334e5a968127574684acb405d))
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://www.github.com/PDMLab/WaitForPort.NET/releases/tag/v0.1.1) (2022-6-14)
 
