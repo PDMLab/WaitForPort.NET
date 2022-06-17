@@ -3,7 +3,7 @@ using System.Net.Sockets;
 
 namespace WaitForPort;
 
-public class Ports
+public static partial class Ports
 {
   public static void WaitForTcpPort(
     int port,
